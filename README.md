@@ -65,7 +65,7 @@ Results on PF-PASCAL with res101:
 
 |  Method  |  Backbone  | PCK@0.05 | PCK@0.1 | PCK@0.15 |
 |:--------:|:----------:|:--------:|:-------:|:--------:|
-|   [SCOT](https://github.com/csyanbin/SCOT)   | ResNet-101 |     63.5   |    85.4   |      92.8    |\
+|   [SCOT](https://github.com/csyanbin/SCOT)   | ResNet-101 |     63.2   |    85.4   |      92.8    |\
 | DiscoBox | ResNet-101 |   62.7     |    85.6   |     93.5    |
 
 
