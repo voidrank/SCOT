@@ -62,6 +62,7 @@ def get_bbox_mask(mask, thres=0.0):
     return bbox
 
 
+# best 350
 def resize(img, kps, side_thres=350):
     r"""Resize given image with imsize: (1, 3, H, W)"""
     imsize = torch.tensor(img.size()).float()
