@@ -50,7 +50,7 @@ This implementation is based on [SCOT](https://github.com/csyanbin/SCOT)
 
 Download the pretrained weights from [this link](https://drive.google.com/drive/u/6/folders/1LCWVpGvDOwgNcAJowsLBJ9E656iT0aVv).
 
-### Evaluation
+## Evaluation
 
 Results on PF-PASCAL with res101:
 
@@ -60,7 +60,7 @@ Results on PF-PASCAL with res101:
     python evaluate_map_CAM.py --dataset pfpascal --thres img --backbone resnet101 --hyperpixel '(2,22,24,25,27,28,29)' --sim OTGeo --exp1 1.0 --exp2 0.5 --eps 0.05 --gpu 0 --classmap 1 --split test --alpha 0.15
 ```
 
-#### All results
+### All results
 
 
 |  Method  |  Backbone  | PCK@0.05 | PCK@0.1 | PCK@0.15 |
@@ -68,4 +68,6 @@ Results on PF-PASCAL with res101:
 |   [SCOT](https://github.com/csyanbin/SCOT)   | ResNet-101 |     63.2   |    85.4   |      92.8    |\
 | DiscoBox | ResNet-101 |   62.7     |    85.6   |     93.5    |
 
+## Training
 
+Please look at [this link](https://github.com/voidrank/DiscoBox) for more details
